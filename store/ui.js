@@ -7,7 +7,11 @@ export const state = () => ({
 })
 
 export const mutations = {
-    toggleMainNav(state) {
-        state.mainNavOpen = !state.mainNavOpen
+    toggleMainNav(state, shouldOpen = null) {
+        if (typeof shouldOpen !== 'boolean') {
+            return (state.mainNavOpen = !state.mainNavOpen)
+        }
+
+        return (state.mainNavOpen = shouldOpen)
     }
 }

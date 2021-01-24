@@ -34,7 +34,9 @@ module.exports = {
             }
         }
     },
-    variants: {},
+    variants: {
+        margin: ['responsive', 'group-hover']
+    },
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),

@@ -11,6 +11,6 @@
 
 <script>
     export default {
-
+        transition: 'page-fade'
     }
 </script>
