@@ -1,5 +1,10 @@
 <template>
-    <div id="appWrapper"
+    <div class="flex items-center justify-center min-h-screen">
+        <h1 class="px-48 py-12 text-purple-600 border-t border-b border-purple-200 rounded opacity-50">
+            Headwork Dot Dev
+        </h1>
+    </div>
+    <!-- <div id="appWrapper"
         class="relative flex min-h-screen overflow-x-hidden font-sans text-gray-800 transition-all duration-300 ease-out"
         :class="{'-ml-28': !$store.state.ui.mainNavOpen}">
         <HwNavigation/>
@@ -8,7 +13,7 @@
             :class="{'ml-28': !$store.state.ui.mainNavOpen}">
             <Nuxt/>
         </div>
-    </div>
+    </div> -->
 </template>
 
 <style>

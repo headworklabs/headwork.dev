@@ -3,7 +3,7 @@
 <template>
     <div>
         <h2 class="mt-12 text-2xl">
-            3d perspective effect in CSS and Javascript
+            GSAP Examples
         </h2>
         <p class="mt-6">
             Uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank"><code>getBoundingCLientRect</code></a> with image (dimensions/2) to get the image's center coordinates relative to the viewport left and top. Compares this to the cursor coordinates during mouseover events to determine how much to 3D rotate the image and in which direction.

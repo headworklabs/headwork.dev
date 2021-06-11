@@ -5,8 +5,7 @@
         <div class="relative h-full max-w-4xl mx-auto"><!-- Central Container -->
             <div class="h-full py-24"><!-- Content -->
                 <h1 class="text-4xl">GSAP Examples</h1>
-                <EffectOne/>
-                <EffectTwo/>
+                <ExampleOne/>
             </div>
         </div>
     </div>
