@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </NuxtLink>
-            <NuxtLink to="/playground/gsap-examples"
+            <NuxtLink to="/playground/wavezzz"
                 @mouseleave.native="underlineAnimateOut"
                 class="flex mt-8 cursor-pointer group index-card">
                 <div class="flex justify-end w-1/3">
@@ -46,22 +46,7 @@
                     </div>
                 </div>
                 <div class="relative w-2/3 transition group-hover:text-white">
-                    <h3 class="mt-4 text-2xl">GSAP Examples</h3>
-                    <p class="pr-24">Check out these mad warpping wormholes and change your whole damn perspective on shit.</p>
-                    <div class="w-32 mt-2 overflow-hidden">
-                        <div class="index-card-underline transform -translate-x-full h-0.5 bg-white"></div>
-                    </div>
-                </div>
-            </NuxtLink>
-            <NuxtLink to="/playground/gsap-examples"
-                @mouseleave.native="underlineAnimateOut"
-                class="flex mt-8 cursor-pointer group index-card">
-                <div class="flex justify-end w-1/3">
-                    <div class="w-32 h-32 mt-1 mr-6 transition-all bg-blue-300 group-hover:mt-0 group-hover:shadow-xl">
-                    </div>
-                </div>
-                <div class="relative w-2/3 transition group-hover:text-white">
-                    <h3 class="mt-4 text-2xl">GSAP Examples</h3>
+                    <h3 class="mt-4 text-2xl">Wavezzz</h3>
                     <p class="pr-24">Check out these mad warpping wormholes and change your whole damn perspective on shit.</p>
                     <div class="w-32 mt-2 overflow-hidden">
                         <div class="index-card-underline transform -translate-x-full h-0.5 bg-white"></div>
@@ -91,8 +76,6 @@
                 }
             ],
         },
-
-        transition: 'page-fade',
 
         mounted() {
             this.initNavigation()

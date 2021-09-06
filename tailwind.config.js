@@ -38,8 +38,9 @@ module.exports = {
         margin: ['responsive', 'group-hover']
     },
     plugins: [
+        require('@tailwindcss/aspect-ratio'),
         require('@tailwindcss/forms'),
-        require('@tailwindcss/typography'),
-        require('@tailwindcss/aspect-ratio')
+        require('@tailwindcss/line-clamp'),
+        require('@tailwindcss/typography')
     ]
 }

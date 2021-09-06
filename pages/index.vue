@@ -1,30 +1,48 @@
 <template>
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8"><!-- Outer Container -->
-        <div class="absolute inset-0 z-0 mb-24 ml-12 bg-gray-100"></div>
-        <div class="relative h-full max-w-4xl mx-auto"><!-- Central Container -->
-            <div class="flex items-center h-full"><!-- Content -->
-                <div class="w-1/2">
-                    <p>
-                        Hi, I’m James
-                    </p>
-                    <p class="mt-4">
-                        I’ve been building cloud software and web experiences for 8 years. I’m a technical PM, hands on marketer, erstwhile scientist and passionate software developer.<br/>
-                        I live in Bristol, UK.
-                    </p>
-                    <p class="mt-4">
-                        Headwork.dev is a showcase of my portfolio and resume, a playground for interesting front-end tech and features some racket I make.
-                    </p>
-                </div>
-                <div class="w-1/2 text-gray-300">
-                    // art
-                </div>
-            </div>
-        </div>
+    <div class="flex flex-col items-center justify-center w-full text-center">
+        <NuxtLink to="/"
+            class="block group">
+            <p class="leading-snug text-gray-400 transition group-hover:text-gray-800">hĕd′wûrk″</p>
+            <p class="text-2xl text-gray-800 transition group-hover:text-purple-600">HEADWORK</p>
+        </NuxtLink>
+        <nav class="mt-6">
+            <NuxtLink to="/playground"
+                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
+                Playground
+            </NuxtLink>
+            <NuxtLink to="/thoughts"
+                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
+                Thoughts
+            </NuxtLink>
+            <NuxtLink to="/noise"
+                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
+                Noise
+            </NuxtLink>
+        </nav>
     </div>
 </template>
 
 <script>
     export default {
-        transition: 'page-fade'
+        transition: {
+            beforeEnter(el) {
+                console.log('beforeEnter', el)
+            },
+            // the done callback is optional when
+            // used in combination with CSS
+            enter(el, done) {
+                console.log('enter', el)
+                done()
+            },
+            afterEnter(el) {
+                console.log('afterEnter', el)
+            },
+            enterCancelled(el) {
+                console.log('enterCancelled', el)
+            },
+            afterLeave(el) {
+                console.log('afterLeave', el)
+            }
+        }
     }
 </script>
