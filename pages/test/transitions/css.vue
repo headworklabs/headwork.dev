@@ -1,16 +1,19 @@
 <template>
     <div class="flex flex-col items-center justify-center w-full text-center">
-        <nav class="">
-            <NuxtLink to="/transitions/css" class="mr-2">
+        <NuxtLink to="/test/transitions" class="absolute top-0 mt-6 text-gray-400 transition hover:text-gray-800">
+            back
+        </NuxtLink>
+        <nav>
+            <NuxtLink to="/test/transitions/css" class="mr-2">
                 CSS 0
             </NuxtLink>
-            <NuxtLink to="/transitions/css/1" class="mr-2">
+            <NuxtLink to="/test/transitions/css/1" class="mr-2">
                 CSS 1
             </NuxtLink>
-            <NuxtLink to="/transitions/css/2" class="mr-2">
+            <NuxtLink to="/test/transitions/css/2" class="mr-2">
                 CSS 2
             </NuxtLink>
-            <NuxtLink to="/transitions/css/3" class="mr-2">
+            <NuxtLink to="/test/transitions/css/3" class="mr-2">
                 CSS 3
             </NuxtLink>
         </nav>
@@ -20,13 +23,7 @@
     </div>
 </template>
 
-<script>
-    export default {
-
-    }
-</script>
-
-<style scoped>
+<style>
     .css-enter-active,
     .css-leave-active {
         @apply transition transform;

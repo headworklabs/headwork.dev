@@ -7,3 +7,14 @@ html {
 body {
     min-height: 100%;
 }
+
+
+/* https://nuxtjs.org/docs/2.x/features/transitions#global-settings */
+.fade-enter-active,
+.fade-leave-active {
+    @apply transition;
+}
+.fade-enter,
+.fade-leave-to {
+    @apply opacity-0
+}

@@ -5,7 +5,9 @@
 </template>
 
 <script>
-    export default {
+    import { gsapTransitions1 } from '@/utils/transitions'
 
+    export default {
+        transition: gsapTransitions1
     }
 </script>

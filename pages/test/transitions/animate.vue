@@ -1,16 +1,19 @@
 <template>
     <div class="flex flex-col items-center justify-center w-full text-center">
-        <nav class="">
-            <NuxtLink to="/transitions/animate" class="mr-2">
+        <NuxtLink to="/test/transitions" class="absolute top-0 mt-6 text-gray-400 transition hover:text-gray-800">
+            back
+        </NuxtLink>
+        <nav>
+            <NuxtLink to="/test/transitions/animate" class="mr-2">
                 Animate 0
             </NuxtLink>
-            <NuxtLink to="/transitions/animate/1" class="mr-2">
+            <NuxtLink to="/test/transitions/animate/1" class="mr-2">
                 Animate 1
             </NuxtLink>
-            <NuxtLink to="/transitions/animate/2" class="mr-2">
+            <NuxtLink to="/test/transitions/animate/2" class="mr-2">
                 Animate 2
             </NuxtLink>
-            <NuxtLink to="/transitions/animate/3" class="mr-2">
+            <NuxtLink to="/test/transitions/animate/3" class="mr-2">
                 Animate 3
             </NuxtLink>
         </nav>
@@ -19,12 +22,6 @@
         </div>
     </div>
 </template>
-
-<script>
-    export default {
-
-    }
-</script>
 
 <style scoped>
     .bounce-enter-active {

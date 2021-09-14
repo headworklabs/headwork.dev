@@ -1,16 +1,19 @@
 <template>
     <div class="flex flex-col items-center justify-center w-full text-center">
-        <nav class="">
-            <NuxtLink to="/transitions/function" class="mr-2">
+        <NuxtLink to="/test/transitions" class="absolute top-0 mt-6 text-gray-400 transition hover:text-gray-800">
+            back
+        </NuxtLink>
+        <nav>
+            <NuxtLink to="/test/transitions/function" class="mr-2">
                 Function 0
             </NuxtLink>
-            <NuxtLink to="/transitions/function/1" class="mr-2">
+            <NuxtLink to="/test/transitions/function/1" class="mr-2">
                 Function 1
             </NuxtLink>
-            <NuxtLink to="/transitions/function/2" class="mr-2">
+            <NuxtLink to="/test/transitions/function/2" class="mr-2">
                 Function 2
             </NuxtLink>
-            <NuxtLink to="/transitions/function/3" class="mr-2">
+            <NuxtLink to="/test/transitions/function/3" class="mr-2">
                 Function 3
             </NuxtLink>
         </nav>
@@ -19,12 +22,6 @@
         </div>
     </div>
 </template>
-
-<script>
-    export default {
-
-    }
-</script>
 
 <style scoped>
     /* Slide right */
