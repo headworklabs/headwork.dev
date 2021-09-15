@@ -4,32 +4,29 @@
             back
         </NuxtLink>
         <h1 class="font-semibold text-gray-300">
-            <a href="https://nuxtjs.org/docs/2.x/features/transitions" target="_blank">NUXT TRANSITIONS</a>
+            <a href="https://ihatetomatoes.net/courses/" target="_blank">IHATETOMATOES</a>
         </h1>
         <nav class="mt-6">
-            <NuxtLink to="/test/transitions/css"
+            <a href="https://greensock.com/cheatsheet/"
+                target="_blank"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                Basic CSS
+                GSAP Cheat Sheet
+            </a>
+            <NuxtLink to="/test/ihatetoms/gsap-101"
+                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
+                GSAP 101
             </NuxtLink>
-            <NuxtLink to="/test/transitions/function"
+            <NuxtLink to="/test/ihatetoms/gsap-practical"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                Nuxt Function
+                Practical GSAP
             </NuxtLink>
-            <NuxtLink to="/test/transitions/animate"
+            <NuxtLink to="/test/ihatetoms/pen-reveal"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                CSS Animation
+                Pen Reveal
             </NuxtLink>
-            <NuxtLink to="/test/transitions/js-i"
+            <NuxtLink to="/test/ihatetoms/bella"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                JS & GSAP 1
-            </NuxtLink>
-            <NuxtLink to="/test/transitions/js-ii"
-                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                JS & GSAP 2
-            </NuxtLink>
-            <NuxtLink to="/test/transitions/js-iii"
-                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                JS & GSAP 3
+                Bella
             </NuxtLink>
         </nav>
     </div>
@@ -37,6 +34,6 @@
 
 <script>
     export default {
-        transition: 'fade' // main.css
+        transition: 'fade'
     }
 </script>

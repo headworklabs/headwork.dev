@@ -1,22 +1,21 @@
 <template>
     <div class="flex flex-col items-center justify-center w-full text-center">
-        <NuxtLink to="/"
-            class="block group">
-            <p class="leading-snug text-gray-400 transition group-hover:text-gray-800">hĕd′wûrk″</p>
-            <p class="text-2xl text-gray-800 transition group-hover:text-purple-600">HEADWORK</p>
+        <NuxtLink to="/" class="absolute top-0 mt-6 text-gray-400 transition hover:text-gray-800">
+            back
         </NuxtLink>
+        <h1 class="font-semibold text-gray-300">TEST // DEPLOY</h1>
         <nav class="mt-6">
-            <NuxtLink to="/playground"
+            <NuxtLink to="/test/transitions"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                Playground
+                Nuxt Transitions
             </NuxtLink>
-            <NuxtLink to="/thoughts"
+            <NuxtLink to="/test/ihatetoms"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                Thoughts
+                IHATETOMATOES (GSAP)
             </NuxtLink>
-            <NuxtLink to="/noise"
+            <NuxtLink to="/test/js30"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                Noise
+                Javascript 30
             </NuxtLink>
         </nav>
     </div>
