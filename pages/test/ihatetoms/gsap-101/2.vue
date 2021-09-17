@@ -1,3 +1,13 @@
+
+/*
+ *
+ * GSAP Tweens in Order
+ * https://ihatetomatoes.net/module-1/g101-to-and-from-tweens-811/
+ * https://ihatetomatoes.net/module-1/g101-from-and-set-tweens-257/
+ *
+ *
+ */
+
 <template>
     <div class="flex flex-col items-center justify-center w-full text-center">
         <NuxtLink to="/test/ihatetoms/gsap-101" class="absolute top-0 mt-6 text-gray-400 transition hover:text-gray-800 gsap-back-link">
@@ -73,7 +83,7 @@
                 })
 
                 gsap.to('.gsap-item-set1', {
-                    delay: 2,
+                    delay: 1.4,
                     duration: 0.4,
                     x: 0,
                     opacity: 1,

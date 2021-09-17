@@ -1,3 +1,13 @@
+
+/*
+ *
+ * GSAP Tweens from Actions
+ * https://ihatetomatoes.net/module-1/g101-to-and-from-tweens-811/
+ * https://ihatetomatoes.net/module-1/g101-from-and-set-tweens-257/
+ *
+ *
+ */
+
 <template>
     <div class="flex flex-col items-center justify-center w-full text-center">
         <NuxtLink to="/test/ihatetoms/gsap-101" class="absolute top-0 mt-6 text-gray-400 transition hover:text-gray-800">
@@ -10,10 +20,10 @@
             https://greensock.com/docs/v3/GSAP/gsap.to()
          -->
         <div class="flex items-start px-6 py-4 mt-6 bg-gray-100 w-96 rounded-xl">
-            <div class="control-center">
+            <div class="w-24 mr-4 control-center">
                 <code>to</code>
-                <button @click="startOne" class="play">play</button>
-                <button @click="reverseOne" class="reverse">reverse</button>
+                <button @click="startOne" class="button1">play</button>
+                <button @click="reverseOne" class="button2">reverse</button>
             </div>
             <div ref="objectOne" class="w-24 h-24 bg-gray-200 rounded-xl"></div>
         </div>
@@ -22,10 +32,10 @@
             https://greensock.com/docs/v3/GSAP/gsap.to()
          -->
         <div class="flex items-start px-6 py-4 mt-6 bg-gray-100 w-96 rounded-xl">
-            <div class="control-center">
+            <div class="w-24 mr-4 control-center">
                 <code>to</code>
-                <button @click="startTwo" class="play">play</button>
-                <button @click="reverseTwo" class="reverse">reverse</button>
+                <button @click="startTwo" class="button1">play</button>
+                <button @click="reverseTwo" class="button2">reverse</button>
             </div>
             <div ref="objectTwo">
                 <div class="w-24 h-4 bg-gray-200 rounded-xl"></div>
@@ -40,10 +50,10 @@
             https://greensock.com/docs/v3/GSAP/gsap.from
          -->
         <div class="flex items-start px-6 py-4 mt-6 bg-gray-100 w-96 rounded-xl">
-            <div class="control-center">
+            <div class="w-24 mr-4 control-center">
                 <code>from</code>
-                <button @click="startThree" class="play">play</button>
-                <button @click="reverseThree" class="reverse">reverse</button>
+                <button @click="startThree" class="button1">play</button>
+                <button @click="reverseThree" class="button2">reverse</button>
             </div>
             <div ref="objectThree" class="w-24 h-24 bg-indigo-500 rounded-xl"></div>
         </div>
@@ -52,10 +62,10 @@
             https://greensock.com/docs/v3/GSAP/gsap.fromTo()
          -->
         <div class="flex items-start px-6 py-4 mt-6 bg-gray-100 w-96 rounded-xl">
-            <div class="control-center">
+            <div class="w-24 mr-4 control-center">
                 <code>fromTo</code>
-                <button @click="startFour" class="play">play</button>
-                <button @click="reverseFour" class="reverse">pause</button>
+                <button @click="startFour" class="button1">play</button>
+                <button @click="reverseFour" class="button2">pause</button>
             </div>
             <div ref="objectFour" class="w-24 h-24 bg-indigo-500 rounded-xl"></div>
         </div>
@@ -64,10 +74,10 @@
             https://greensock.com/docs/v3/GSAP/gsap.fromTo()
          -->
         <div class="flex items-start px-6 py-4 mt-6 bg-gray-100 w-96 rounded-xl">
-            <div class="control-center">
+            <div class="w-24 mr-4 control-center">
                 <code>set</code>
-                <button @click="startFive" class="play">play</button>
-                <button @click="reverseFive" class="reverse">reset</button>
+                <button @click="startFive" class="button1">play</button>
+                <button @click="reverseFive" class="button2">reset</button>
             </div>
             <div ref="objectFive" class="w-24 h-24 bg-gray-200 rounded-xl"></div>
         </div>

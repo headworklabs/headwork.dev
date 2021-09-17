@@ -17,7 +17,11 @@
             </NuxtLink>
             <NuxtLink to="/test/ihatetoms/gsap-101/3"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                3. Timelines
+                3. Timeline a Page
+            </NuxtLink>
+            <NuxtLink to="/test/ihatetoms/gsap-101/4"
+                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
+                4. Basic ScrollTrigger
             </NuxtLink>
         </nav>
     </div>
@@ -30,19 +34,15 @@
 </script>
 
 <style>
-    .control-center {
-        @apply w-24 mr-4;
-    }
-
     .control-center code {
         @apply block bg-indigo-100 text-indigo-500 rounded-xl;
     }
 
-    .control-center .play {
+    .control-center .button1 {
         @apply block w-full px-2 py-0.5 text-sm text-white transition-colors bg-gray-800 hover:bg-gray-600 rounded-xl mt-1;
     }
 
-    .control-center .reverse {
+    .control-center .button2 {
         @apply block w-full px-2 py-0.5 text-sm mt-1 text-gray-400 transition-colors bg-gray-200 hover:bg-gray-300 rounded-xl;
     }
 </style>

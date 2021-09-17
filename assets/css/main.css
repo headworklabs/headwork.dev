@@ -18,3 +18,13 @@ body {
 .fade-leave-to {
     @apply opacity-0
 }
+
+/* https://nuxtjs.org/docs/2.x/features/transitions#global-settings */
+.fade-long-enter-active,
+.fade-long-leave-active {
+    @apply transition duration-1000;
+}
+.fade-long-enter,
+.fade-long-leave-to {
+    @apply opacity-0
+}
