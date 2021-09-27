@@ -54,7 +54,8 @@
                 scrollTrigger: {
                     trigger: '.parallax-container',
                     start: 'top center',
-                    scrub: true
+                    scrub: true,
+                    pin: true
                 }
             })
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex min-h-screen py-24 overflow-x-hidden font-sans text-gray-800 transition-all">
+    <div class="flex min-h-screen overflow-x-hidden font-sans text-gray-800 transition-all">
         <Nuxt/>
     </div>
 </template>

@@ -21,7 +21,15 @@
             </NuxtLink>
             <NuxtLink to="/test/ihatetoms/gsap-101/4"
                 class="block mt-2 text-gray-800 transition hover:text-indigo-500">
-                4. Basic ScrollTrigger
+                4. ScrollTrigger Basic
+            </NuxtLink>
+            <NuxtLink to="/test/ihatetoms/gsap-101/5"
+                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
+                5. ScrollTrigger Parallax
+            </NuxtLink>
+            <NuxtLink to="/test/ihatetoms/gsap-101/6"
+                class="block mt-2 text-gray-800 transition hover:text-indigo-500">
+                5. ScrollTrigger Pin
             </NuxtLink>
         </nav>
     </div>

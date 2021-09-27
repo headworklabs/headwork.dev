@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex items-center justify-center h-screen gsap-screen-3">
+        <div class="flex items-center justify-center h-screen transition-colors duration-500 gsap-screen-3">
             <div class="relative p-16 text-center">
                 <svg viewBox="0 0 200 200" class="absolute top-0 right-0 z-0 w-48 text-teal-500 gsap-svg-3">
                     <path fill="currentColor" d="M49,-56.4C61.5,-47.9,68.3,-30.6,68.7,-14.2C69,2.1,62.9,17.4,54.4,30.8C46,44.3,35.2,55.8,20.5,64.9C5.7,74,-13,80.7,-26.7,75C-40.4,69.3,-49.1,51.3,-53.9,35C-58.8,18.6,-59.8,4,-57.5,-10.3C-55.2,-24.6,-49.6,-38.6,-39.5,-47.6C-29.3,-56.6,-14.7,-60.6,1.8,-62.8C18.2,-64.9,36.5,-65,49,-56.4Z" transform="translate(100 100)" />
@@ -185,6 +185,7 @@
                     start: '75% bottom', // top of .gsap-screen-3 hits top of viewport
                     // markers: true,
                     immediateRender: false,
+                    toggleClass: 'bg-gray-100'
                 }
 
                 let scrollTriggerOut = {
